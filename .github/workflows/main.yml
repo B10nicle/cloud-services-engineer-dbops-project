@@ -10,7 +10,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    #### Добавьте шаг с Flyway-миграциями
+    ### Шаг с Flyway-миграциями
     - name: Apply migrations in Docker
       run: |
         docker pull flyway/flyway
